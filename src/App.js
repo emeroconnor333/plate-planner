@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MealPlanner from './components/MealPlanner';
 import ShoppingList from './components/ShoppingList';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 
 const mealData = {
   breakfast: [
